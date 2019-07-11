@@ -1,0 +1,167 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5rem;        /* 5.625 rem eski hali  */                      /*Önceki Hali*/  /* width:10%;   margin: 0 auto; */
+  margin: 50px auto 0 auto;   /* less space için yaptık  */
+  font-family: 'Sacramento', cursive;
+  /*line-height: 1;  defaulttur 2-3-4 büyüyürek aradaki boşluk açılır */
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size:2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+    border: 2px dotted #EAF6F6;
+    border-style:none;
+    border-top-style: dotted;
+    /*border-color: #EAF6F6;*/
+    border-width: 7px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  /*display: inline-block;
+  padding: 30px;*/    /*margin iş gördü */
+}
+
+a:hover {
+  color: #EAF6F6;  /*ÜZERİNE FARE GELİNCE RENK DEĞİŞİMİ OLUYOR. */
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 70px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 53%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.90rem;
+  padding: 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left:250px;
+  bottom: 310px;
+}
+
+.mertcan-img {
+    border-radius: 90%;
+    padding: 20px;
+    width: 250px;
+    height: 230px;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+  /*line-height: 2;*/   /*buraya koymak yerine p ye koyalım hepsine geçerli olsun   */
+}
+
+.computer-img {
+  border-radius: 90%;
+  width: 25%;
+  margin-right: 30px;
+  /*padding: 30px;*/      /* bu hoş gözükmedi */
+  float: left;
+}
+
+.chillies-img {
+  border-radius: 90%;
+  width: 25%;
+  margin-left: 30px;
+  /*padding: 30px;*/     /* bu hoş gözükmedi */
+  float: right;
+}
+
+.code-skill-description {
+  /*clear: left;*/   /* "left margin is clear." */
+}
+
+.chillies-skill-description {
+  /*clear: right;*/  /* "right margin is clear." */
+}
+
+.butn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
